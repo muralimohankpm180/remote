@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": []
+  },
+  "files": [
+    "src/main.ts",
+    "src/app/app.component.ts",
+    "src/app/login/login.component.ts"
+    
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ]
+}
