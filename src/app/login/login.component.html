@@ -1,1 +1,18 @@
-<p>login works! from remote application</p>
+<main>
+    <section>
+        <div>
+            <form #userForm="ngForm" (ngSubmit)="submitForm(userForm)">
+                <div>
+                    <label for="username">User Name</label>
+                    <input type="email" id="username" name="username" [(ngModel)]="userDetails.username">
+                </div>
+                <div>
+                    <label for="password">Passwod Name</label>
+                    <input type="password" id="password" name="password" [(ngModel)]="userDetails.password">
+                </div>
+           <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
+

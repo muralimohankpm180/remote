@@ -36,6 +36,7 @@ module.exports = {
             // './Component': './/src/app/app.component.ts',
             // './Routes':'.//src/app/app.routes.ts',
             './Login': './/src/app/login/login.component.ts',
+            './Cart': './/src/app/cart/cart.component.ts',
         },        
         
         // For hosts (please adjust)
